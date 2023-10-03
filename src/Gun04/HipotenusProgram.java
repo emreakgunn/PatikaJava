@@ -10,7 +10,7 @@ public class HipotenusProgram {
         System.out.print("B Kenarının Uzunluğunu Giriniz : ");
         b = inp.nextInt();
 
-        hipo = Math.sqrt((a*a) + (b*b));
+        hipo = Math.sqrt((a*a) + (b*b));  // Bu komut karekök almamızı sağlar.
         System.out.print("Hipotenüs Değeri : " + hipo);
 
     }
