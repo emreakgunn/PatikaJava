@@ -12,5 +12,6 @@ public class HipotenusProgram {
 
         hipo = Math.sqrt((a*a) + (b*b));
         System.out.print("Hipotenüs Değeri : " + hipo);
+
     }
 }
